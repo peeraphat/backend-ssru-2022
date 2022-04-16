@@ -1,0 +1,28 @@
+{
+  "name": "demo-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --trace-warnings -r @babel/register -r dotenv/config src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.6.7",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "graphql": "^16.3.0",
+    "graphql-compose": "^9.0.8",
+    "graphql-compose-mongoose": "^9.7.1",
+    "mongoose": "^6.2.11",
+    "mongoose-bcrypt": "^1.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/register": "^7.17.7",
+    "nodemon": "^2.0.15"
+  }
+}
